@@ -19,7 +19,7 @@ class Body extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          HeaderWithSearchBox(size: size),
+          HeaderWithSearchBox(size: size, onItemChange: (){}),
           TitleWithMoreBtn(title: "Recomended", pressed: (){},),
 
           RecompondPlants(),
